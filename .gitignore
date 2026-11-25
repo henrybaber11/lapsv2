@@ -1,6 +1,124 @@
+
+# Python bytecode
 __pycache__/
 *.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
 .venv/
 venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+.envrc
+
+# Logs
 *.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution and packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Testing and coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+*.lcov
+.hypothesis/
+.pytest_cache/
+cover/
+
+# IDEs and editors
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Documentation
+docs/_build/
+site/
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Python tools
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.pybuilder/
+.pytest_cache/
+
+# Package managers
+.pdm-python
+.pdm-build/
+.pixi/
+poetry.toml
+
+# Databases and local state
+*.sqlite3
+*.sqlite3-journal
+local_settings.py
+instance/
+
+# Temporary files
+tempCodeRunnerFile.py
+*.tmp
+*.bak
+
+# PyInstaller and build output
+target/
+
+# PyPI credentials
+.pypirc
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
