@@ -1,2 +1,2 @@
-# laspv2
+# lapsv2
 Used for accessing local admin credentials from a domain account.
