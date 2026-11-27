@@ -1,4 +1,4 @@
-# laspv2
+# lapsv2
 
 A Python project exploring Windows LAPS, cryptographic operations and the protocols involved in retrieving and processing protected directory information.
 
